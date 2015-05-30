@@ -1,0 +1,73 @@
+<html>
+<meta charset="UTF-8">
+<head><title>Come rimuovere un dialer</title></head>
+<h1 align="center"><font color="FF0000">Come rimuovere adeguatamente un Dialer</font></h1>
+<p align="center"><img src="virus18.png" width="500" height="40%"</p>
+<p align="center">Ci sono alcune cose che devi fare nell'ordine in cui sono proposte:</p>
+<ol>
+<br>
+<br>
+<li>Trovare il file incriminato e cancellarlo dal computer.</li>
+<p>Per eliminare un file dal computer occorre prima conoscere il suo nome e la cartella in cui è presente. Se è presente una "ICONA" sulla scrivania del computer, cioè il desktop, il nome del file incriminato lo si trova in questo modo:</p>
+<ol type="A">
+	<li>col destro del mouse scegliere "proprietà";</li>
+	<li>leggere le parole scritte nella casella di testo "Destinazione" e scriversele su un foglio, che si servono dopo; per esempio sarà: c:/..../xxxxxx.exe; dove xxxx è il nome del file ignoto, che occorre cancellare.</li>
+	<li> Ora occorre trovare il file; basta scegliere dalla suddetta finestra "trova destinazione" e si viene portati proprio sul file incriminato; oppure dal menu "START" scegliere "trova" e poi trovare la cartella in cui è presente il file incriminato</li>
+	<li> eliminare il file col destro del mouse, scegliendo elimina; in tal modo il file andrà nel cestino, che poi occorre svuotare, anche dopo.</li>
+</ol> 
+<br>
+<p align="center"><font color="FF0000">Un altro modo per conoscere il nome di un file in esecuzione è quello di premere contemporaneamente i tasti "Ctrl"+"Alt"+Canc" e leggere i nomi dei file in esecuzione.
+A questo punto il file dovrebbe essere stato eliminato dal computer ma esso è ancora attivo, e può riprodursi con un altro nome diverso, per cui occorre subito procedere al punto seguente.</font></p>
+<br>
+<br>
+<li>Eliminare il file dal registro di configurazione di Windows</li>
+<p>Il registro di windows contiene dei file che vengono eseguiti automaticamente. Questa procedura deve essere eseguita da una persona esperta, in quanto potrebbe bloccare il computer, se si compiono degli errori.
+Ma esperti si diventa, non si nasce, quindi proseguiamo con questo punto.
+Per accedere al registro di windows scegliere dalla scrivania di Windows:</p>
+<ol type="A">
+<li>"START"</li>
+<li>"ESEGUI"</li>
+<li>scrivere "regedit" e scegliere OK</li>
+<li>Appare un editor per modificare il registro; l'editor ci mostra le varie cartelle che contengono i file del registro; il nome del file xxxxx.exe si trova nella cartella "RUN" che ora dobbiamo trovare seguendo il percorso indicato:</li>
+</ol>
+<p><font color="BLUE">HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run</font></p>
+<p>Per cui occorre fare click col sinistro del mouse su ognuna delle cartelle fin quando non si arriva alla cartella "Run" che contiene il file incriminato; quindi click su:</p>
+<p><font color="BLUE">HKEY_LOCAL_MACHINE</font></p>
+<p><font color="BLUE">Software</font></p>
+<p><font color="BLUE">Microsoft</font></p>
+<p><font color="BLUE">Windows</font></p>
+<p><font color="BLUE">CurrentVersion</font></p>
+<p><font color="BLUE">Run</font></p>
+<p>Arrivati nella cartella "Run" occorre trovare la linea in cui ci dovrebbe essere il file xxxxx.exe; eliminare l'intera riga, col destro del mouse, scegliendo "elimina".</p>
+<br>
+<br>
+<li>Eliminare il file dall'esecuzione automatica</li>
+<p>Dalla scrivania di Windows scegliere:</p>
+<ol type="A">
+<li>"START"</li>
+<li>"ESEGUI"</li>
+<li>Scrivere "msconfig" e premere "OK"</li>
+<li>Scegliere "ESECUZIONE AUTOMATICA"</li>
+<li>Deselezionare il segno di spunta Ö sulla linea in cui è presente il file xxxx.exe</li>
+<li>Scegliere "OK" e riavviare il computer</li>
+</ol>
+<br>
+<br>
+<li>Cancellare la icona del dialer dalla scrivania col destro del mouse</li>
+<br>
+<br>
+<li>Può darsi che il dialer si sia anche installato nelle connessioni remote, per cui occorre controllare tutti i numeri telefonici delle connessioni dai "BROWSER" e vedere se corrispondono a quelli indicati dal provider.</li>
+<br>
+<br>
+<li>Aggiornare ogni mese Windows collegandosi al sito: </li>
+<a href="http://www.update.microsoft.com/windowsupdate/v6/thanks.aspx?ln=it&&thankspage=5">Microsoft Update</a>
+<br>
+<br>
+<br>
+<a href="file:///home/nadir/Scrivania/VIRUS/virus.html">Home</a>
+
+
+
+
+</ol>
+</html>
